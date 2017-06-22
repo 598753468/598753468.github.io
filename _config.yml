@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://598753468.github.io"
 title_description: "这里本来是要写点描述的，可我也没什么好写的，不写又显得空荡荡的"
 #title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-title_image: "yangtuo.png"
+title_image: "http://websitedata-1253629725.costj.myqcloud.com/yangtuo.png"
 google_analytics: "UA-101408793-1"
 #disqus_account: cartenoire
 github_repository: https://github.com/598753468/598753468.github.io
