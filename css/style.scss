@@ -1,5 +1,6 @@
 ---
 ---
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
@@ -521,13 +522,13 @@ ul {
 		}
 
 		@media (min-width: $screen-md-min) {
-			width: 90%;
-			margin-left: 5%;
+			width: 80%;
+			margin-left: 10%;
 		}
 
 		@media (min-width: $screen-lg-min) {
-			width: 90%;
-			margin-left: 5%;
+			width: 70%;
+			margin-left: 15%;
 		}
 
 		.thumb {
@@ -580,11 +581,22 @@ ul {
 			}
 
 			img {
-				max-width: 100%;
+				max-width: 95%;
 				padding: 10px;
     		display: block;
     		margin-left: auto;
-    		margin-right: auto
+    		margin-right: auto;
+		// 				@media (min-width: $screen-sm-min) {
+		// 		max-width: 85%;
+		// }
+
+		// @media (min-width: $screen-md-min) {
+		// 		max-width: 75%;
+		// }
+
+		// @media (min-width: $screen-lg-min) {
+		// 		max-width: 65%;
+		// }
 			}
 
 			ul {
