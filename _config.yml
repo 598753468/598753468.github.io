@@ -1,39 +1,39 @@
-# Site settings
-title: "疯了个发"
+---
+title: 疯了个发
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: 598753468@qq.com
-description: "剩下的懒得改了"
-baseurl: ""
-url: "http://w-zl.cn"
-title_description: "这里本来是要写点描述的，可我也没什么好写的，不写又显得空荡荡的"
-#title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-title_image: "http://websitedata-1253629725.costj.myqcloud.com/yangtuo.png"
-google_analytics: "UA-101408793-1"
-#disqus_account: cartenoire
+description: 剩下的懒得改了
+baseurl: ''
+url: http://w-zl.cn
+title_description: 这里本来是要写点描述的，可我也没什么好写的，不写又显得空荡荡的
+title_image: http://websitedata-1253629725.costj.myqcloud.com/yangtuo.png
+google_analytics: UA-101408793-1
 github_repository: https://github.com/598753468/598753468.github.io
-#addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
-
-# Social usernames/URLs
 twitter_username: w598753468
-github_username:  598753468
+github_username: 598753468
 instagram_username: 
 reddit_username: 
 linkedin_link: 
 google_plus_link: 
 stackoverflow_link: 
-xing_link:
-facebook_link:
-
-# Footer
-footer_left: "<i class=\"fa fa-heart\"></i> 感谢 <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; 源码 <a href=\"https://github.com/598753468/598753468.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
-# Build settings
+xing_link: 
+facebook_link: 
+footer_left: <i class="fa fa-heart"></i> 感谢 <a href="https://twitter.com/_JacobTomlinson">Jacob
+  Tomlinson</a>
+footer_right: '&lt;/&gt; 源码 <a href="https://github.com/598753468/598753468.github.io">Github</a>
+  &nbsp;<i class="fa fa-github-alt"></i>'
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 permalink: pretty
-exclude: [vendor]
+exclude:
+- vendor
