@@ -1,13 +1,5 @@
 ---
 title: 疯了个发
-timezone: Asia/Shanghai
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: 598753468@qq.com
 description: 剩下的懒得改了
 baseurl: ''
