@@ -923,3 +923,21 @@ td{
     padding: 2px;
     border:1px solid $dark-blue;;
 }
+.geogebraContainer{
+	width: 100%;
+	max-width: 800px;            
+	margin:0 auto;
+}
+.geogebraWrapper{
+	position:relative;
+	padding-top:0px;
+	padding-bottom:75%;  
+	height:0;
+}
+.geogebra{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+}

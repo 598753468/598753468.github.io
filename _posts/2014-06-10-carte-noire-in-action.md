@@ -99,7 +99,21 @@ Checkout the [Github repository][3] to request,
 or add, features.
 
 Happy writing.
-
+$$
+f(x)=
+\left\{\begin{matrix}
+\frac{255}{90}(x-30) & 30<x<120 \\ 
+\frac{255}{90}(30-x) & 0<x\leqslant30 或 120\leqslant x\leqslant180
+\end{matrix}
+\right. 
+$$
+$$v_{地}$$
+$$v_{ground}$$
+<div class="geogebraContainer"> 
+<div class="geogebraWrapper">
+<iframe class="geogebra" scrolling="auto" title="曲线" src="https://www.geogebra.org/material/iframe/id/phMfX9Ay/width/800/height/600/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/true/ld/false/sdz/false/ctl/true" width="800" height="600"> </iframe>
+</div>
+</div>
 [1]: http://pixyll.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/
 [2]: https://noahfrederick.com/log/lion-terminal-theme-peppermint/
 [3]: https://github.com/jacobtomlinson/carte-noire
