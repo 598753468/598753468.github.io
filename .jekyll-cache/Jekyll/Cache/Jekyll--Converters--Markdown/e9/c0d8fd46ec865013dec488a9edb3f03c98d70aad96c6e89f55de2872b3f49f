@@ -1,0 +1,40 @@
+I"�
+<p>以安装<a href="https://github.com/jekyll/jekyll-admin">jekyll-admin</a>为例介绍安装插件的方法。</p>
+<h3 id="在网站根目录下新建gemfile文件"><strong>在网站根目录下新建<code class="highlighter-rouge">Gemfile</code>文件</strong></h3>
+<p><img src="http://websitedata-1253629725.costj.myqcloud.com/Screenshot-20170623095753-756x543.png" alt="" />
+文件内容为</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s1">'https://rubygems.org'</span>
+ 
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+   <span class="n">gem</span> <span class="s1">'jekyll-admin'</span>
+ <span class="k">end</span>
+</code></pre></div></div>
+<h3 id="在网站根目录打开终端输入bundle-install"><strong>在网站根目录打开终端，输入<code class="highlighter-rouge">bundle install</code></strong></h3>
+<p>如果提示</p>
+<blockquote>
+  <p>程序“bundle”尚未安装。 您可以使用以下命令安装：
+sudo apt install ruby-bundler</p>
+</blockquote>
+
+<p>那就按提示信息安装<code class="highlighter-rouge">sudo apt install ruby-bundler </code>，之后再执行<code class="highlighter-rouge">bundle install</code>
+全部完成后就安装成功了。</p>
+<h3 id="使用jekyll-admin"><strong>使用jekyll-admin</strong></h3>
+<p>在终端中输入<code class="highlighter-rouge">jekyll serve</code></p>
+
+<p>在浏览器中进入<a href="http://127.0.0.1:4000/admin">http://127.0.0.1:4000/admin</a>就可以看到这个插件的功能了。jekyll-admin是一个图形化管理网站文章的插件。可以很方便地写post。
+<img src="http://websitedata-1253629725.costj.myqcloud.com/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88.png" alt="" /></p>
+<h2 id="安装更多插件">安装更多插件</h2>
+<p><a href="https://jekyllrb.com/docs/plugins/#installing-a-plugin">Jekyll支持很多插件</a>，想要安装更多插件，就修改Gemfile文件，比如：</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s1">'https://rubygems.org'</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+   <span class="n">gem</span> <span class="s1">'jekyll-admin'</span>
+   <span class="n">gem</span> <span class="s2">"my-jekyll-plugin"</span>
+   <span class="n">gem</span> <span class="s2">"another-jekyll-plugin"</span>
+ <span class="k">end</span>
+</code></pre></div></div>
+<p>然后再执行一次<code class="highlighter-rouge">bundle install</code></p>
+
+<p><del>jekyll-admin这个插件不好用，我已经把它删了</del></p>
+:ET
