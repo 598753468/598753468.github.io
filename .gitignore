@@ -20,9 +20,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-_site
+/_site
 .sass-cache
-.jekyll-cache
+/.jekyll-cache
 .jekyll-metadata
 vendor
 
@@ -31,3 +31,4 @@ _site/
 
 # Ruby
 Gemfile.lock
+

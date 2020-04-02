@@ -20,7 +20,7 @@ stackoverflow_link:
 xing_link: 
 facebook_link: 
 footer_left: <i class="fa fa-heart"></i> 感谢 <a href="https://twitter.com/_JacobTomlinson">Jacob Tomlinson</a> 
-footer_middle: <a href="http://beian.miit.gov.cn/">辽ICP备19009824号-1</a> 
+footer_middle: <p><a href="http://beian.miit.gov.cn/">辽ICP备19009824号-1</a> </p><p>版权所有</p>
 footer_right: '&lt;/&gt; 源码 <a href="https://github.com/598753468/598753468.github.io">Github</a>
   &nbsp;<i class="fa fa-github-alt"></i>'
 markdown: kramdown
